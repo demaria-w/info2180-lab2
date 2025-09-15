@@ -1,2 +1,3 @@
-# info2180-lab2
-This is Demaria's Lab 2 for INFO2180
+# INFO2180 Lab 2
+
+This is Lab 2 for Demaria Walker.
