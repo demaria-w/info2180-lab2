@@ -1,0 +1,125 @@
+body{
+	font-size:18px;
+	color: #2D3748;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#myimg {
+  border-radius: 50%;
+  padding: 5px;
+}
+
+#imground{
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-auto-rows: minmax(50px,auto);
+	grid-gap: 20px;
+	margin: 0px;
+}
+
+
+main{
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-bottom: 5vw;
+}
+
+header{
+	background-color: #63B3ED;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 15px;
+	grid-column: 1/-1;
+	grid-row: 1;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1{
+	font-size: 36px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#quote{
+	padding-bottom:25px;
+	margin: 0px;
+}
+
+h2{
+	font-size: 32px;
+	color: #48BB78;
+	padding:0px;
+	margin: 0px;
+}
+
+h3{
+	color: #48BB78;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4{
+	color: #718096;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding:0px;
+	padding-bottom: 15px;
+	margin: 0px;
+}
+
+#section1{
+	background-color: #E2E8F0;
+	padding: 20px;
+}
+
+.abt h3{
+	color: #000000;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+	color: #4299E1;
+	text-decoration: none;
+}
+
+article{
+	grid-column: 1;
+	grid-row: 2;
+	padding: 16px;
+}
+
+aside{
+	grid-column:2;
+	grid-row:2;
+	padding:16px;
+	margin-right: 5vw;
+	margin-bottom: 5vw;
+}
+
+footer{
+	grid-column: 1/-1;
+	clear: both;
+	padding: 10px;
+	color: #FFFFFF;
+	background-color: #2C5282;
+}
+
+footer p{
+	padding-left: 150px;
+}
